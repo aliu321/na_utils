@@ -4,7 +4,7 @@ Convert DNA sequences to RNA
 
 def rna(seq):
     """
-    Convert a DNA sequence to RNA.
+    Convert a DNA sequence to RNA while conserving upper or lower case.
     """
 
     # Determine if original sequence was uppercase
@@ -25,7 +25,7 @@ def rna(seq):
 
 def reverse_rna_complement(seq):
     """
-    Convert a DNA sequence into its reverse complement as RNA.
+    Convert a DNA sequence into its reverse complement as RNA while conserving upper or lower case.
     """
 
     # Determine if original was uppercase
